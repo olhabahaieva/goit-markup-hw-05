@@ -466,9 +466,9 @@ footer p {
 }
 
 .backdrop.is-hidden{
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(.17,.67,.75,.93);
 }
 
 .modal-wrap{
