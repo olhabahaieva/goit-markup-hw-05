@@ -461,17 +461,14 @@ footer p {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(.17,.67,.75,.93);
 }
 
 .backdrop.is-hidden{
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
-
-.backdrop {
-  opacity: 1;
-  transition: opacity 250ms cubic-bezier(.17,.67,.75,.93);
 }
 
 .modal-wrap{
