@@ -463,6 +463,11 @@ footer p {
   background-color: rgba(46, 47, 66, 0.4);
 }
 
+.backdrop.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal-wrap{
   display: flex;
   padding: 24px;
