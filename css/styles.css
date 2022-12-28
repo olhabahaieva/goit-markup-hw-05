@@ -121,18 +121,18 @@ footer {
   padding: 12px 24px;
   border-radius: 4px;
   margin-right: 24px;
-  box-shadow:none;
+  box-shadow: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-light:last-child {
   margin-right: 0;
 }
 
-.button-light:hover ,
+.button-light:hover,
 .button-light:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
@@ -201,16 +201,16 @@ footer a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-navigation-link{
+.main-navigation-link {
   position: relative;
 }
 
-.active a{
+.active a {
   color: var(--accent-color);
 }
 
-.active a::after{
-  content:"";
+.active a::after {
+  content: "";
   display: inline-block;
   position: absolute;
   bottom: -100%;
@@ -222,7 +222,7 @@ footer a {
 }
 
 .main-navigation a:hover,
-.main-navigation a:focus{
+.main-navigation a:focus {
   color: var(--accent-color);
 }
 
@@ -389,7 +389,7 @@ footer a {
 }
 
 .social-icons-link:hover,
-.social-icons-link:focus{
+.social-icons-link:focus {
   background-color: var(--accent-clicked-butoon);
 }
 
@@ -462,7 +462,7 @@ footer p {
 }
 
 .customer-logo-element:hover,
-.customer-logo-element:focus{
+.customer-logo-element:focus {
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
@@ -480,19 +480,19 @@ footer p {
   cursor: pointer;
 }
 
-.customer-logo{
+.customer-logo {
   color: currentColor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customer-logo-first{
+.customer-logo-first {
   fill: currentColor;
   color: #8e8f99;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Modal window*/
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -503,22 +503,22 @@ footer p {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-wrap{
+.modal-wrap {
   display: flex;
   padding: 24px;
 }
 
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.5);
 }
 
-.modal{
+.modal {
   display: flex;
   position: absolute;
   justify-content: flex-end;
@@ -527,24 +527,25 @@ footer p {
   width: 408px;
   height: 576px;
   background-color: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-button{
+.modal-window-button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 24px;
   height: 24px;
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
-.modal-window-cross{
+.modal-window-cross {
   fill: rgba(0, 0, 0, 1);
 }
 
@@ -584,12 +585,12 @@ footer p {
   margin-bottom: 8px;
 }
 
-.portfolio-image-wrap{
+.portfolio-image-wrap {
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.portfolio-image-overlay::before{
+.portfolio-image-overlay::before {
   content: "";
   position: absolute;
   display: inline-block;
@@ -604,12 +605,12 @@ footer p {
   transform: translateY(0%);
 }
 
-.portfolio-image-text-over{
+.portfolio-image-text-over {
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   padding: 40px 32px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5x;
   color: var(--primary-background-color);
@@ -618,10 +619,9 @@ footer p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-element-link:hover .portfolio-image-text-over{
+.portfolio-element-link:hover .portfolio-image-text-over {
   transform: translateY(0%);
 }
-
 
 .portfolio-description {
   padding: 32px 16px;
