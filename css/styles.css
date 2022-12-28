@@ -205,7 +205,11 @@ footer a {
   position: relative;
 }
 
-.main-navigation-link a::after{
+.active a{
+  color: var(--accent-color);
+}
+
+.active a::after{
   content:"";
   display: inline-block;
   position: absolute;
@@ -218,11 +222,7 @@ footer a {
 }
 
 .main-navigation a:hover,
-.main-navigation a:focus {
-  color: var(--accent-color);
-}
-
-.main-navigation-link a:active {
+.main-navigation a:focus{
   color: var(--accent-color);
 }
 
