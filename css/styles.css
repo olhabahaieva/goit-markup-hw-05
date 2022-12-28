@@ -614,6 +614,12 @@ footer p {
   line-height: 1.5x;
   color: var(--primary-background-color);
   letter-spacing: 0.02em;
+  transform: translateY(200%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-element-link:hover .portfolio-image-text-over{
+  transform: translateY(0%);
 }
 
 
